@@ -26,9 +26,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-//Комеентариций 
+//Комеентариций
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+//Еще один комментарий
 
         setSupportActionBar(binding.toolbar);
 
